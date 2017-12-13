@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=WG2HTpPrQgvEtbsb4sjnZzXrpFQGEUoL	"></script>
+    <link rel="stylesheet" href="css/css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <style>
+        img{
+            position: absolute;
+        }
+.swiper-container{
+    width: 100%;
+    height: 100vh;
+    /*margin: auto;*/
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    background: url("img/下载.jpg");
+}
+
+       .next{
+           position: absolute;
+           bottom: 0.5%;
+           top:auto ;
+           left: 42%;
+           animation: tou 1s linear infinite;
+           width: 134px;
+           height: 100px;
+           z-index: 999999;
+       }
+       .next img{
+           width: 100%;
+           height: 100%;
+       }
+@keyframes tou {
+    from{
+        bottom: 2%;
+       opacity:1;
+    }
+    to{
+        bottom: 5%;
+        opacity:0;
+    }
+               }
+.yi_yi{
+   margin-left: -200px;
+}
+        .zi{
+            width: 80%;
+            left: 70px;
+            height: 60%;
+            top: 367px;
+        }
+        .hua{
+            width: 100%;
+            bottom: 0;
+        }
+        .you{
+            right: 0;
+            top: 14%;
+        }
+
+        .zuo{
+            bottom: 25%;
+            left: 0 ;
+
+        }
+        .yuanhua{
+            top: 32%;
+            left: 24%;
+
+        }
+#music{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    z-index: 9;
+    animation: xuanzhuang 2s linear infinite;
+}
+        #music .musicImg{
+            width: 100%;
+            height: 100%;
+        }
+        @keyframes xuanzhuang {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .tao{
+            height: 60%;
+            margin: 352px auto;
+            border-radius: 0;
+            box-shadow: black 0 0 0;
+            border-style: none;
+
+        }
+        .tao img{
+            left: 33%;
+        }
+        .tao_yi{
+            top: 26%;
+        }
+        .tao_er{
+            top: 29%;
+            left: 42%!important;
+        }
+
+        .sahua{
+            top: 25% ;
+            left: 24%;
+            z-index: 999999999;
+        }
+
+/*第二屏幕*/
+
+        .er_text img{
+            top: 17%;
+            left: 9%;
+            width: 85%;
+            height: 66%;
+        }
+/*四个球*/
+ .er span{
+     position: absolute;
+     width: 100px;
+     height: 140px;
+     color: #ffffff;
+     font-size: 55px;
+     text-align: center;
+     line-height: 150px;
+ }
+.zuoyi{
+    background: url("img/qiu.png")no-repeat 100% 100%;
+    top: 20%;
+    left: 33%;
+}
+.zuoer{
+    background: url("img/qiu.png")no-repeat 100% 100%;
+    left: 43%;
+    top: 20%;
+}
+.youyi{
+    background: url("img/qiu.png")no-repeat 100% 100%;
+    left: 53%;
+    top: 20%;
+}
+.youer{
+    background: url("img/qiu.png")no-repeat 100% 100%;
+    top:20%;
+    left: 63%;
+}
+        .er_text_text{
+            position: absolute;
+            color: #ffffff;
+            top: 32%;
+            width: 588px;
+            left: 22%;
+            font-size: 40px;
+        }
+        #map{
+
+        }
+    </style>
+</head>
+<body>
+<div class="kuang">
+<div class="swiper-container">
+    <!--音乐-->
+    <div id="music">
+        <img class="musicImg" src="img/下载%20(10).png " alt="">
+        <audio src="img/7432181325730ca57c8ca676212b74cb.mp3" autoplay loop></audio>
+    </div>
+
+    <div class="swiper-wrapper">
+        <!--第一屏幕-->
+        <div class="swiper-slide yi">
+            <img class="sahua ani" src="img/下载.png" alt="" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="2s">
+            <img class="zi ani" src="img/下载%20(3).png" alt="" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="hua ani" src="img/下载%20(9).png" alt=""  swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s">
+            <img class="yi_yi ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" src="img/下载%20(5).png" alt="">
+            <img class=" you ani  "  src="img/下载%20(6).png" alt="#" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="zuo ani" src="img/下载%20(7).png" alt="#" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="yuanhua ani" src="img/下载%20(2).png" alt="" swiper-animate-effect="flipInY" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+            <div class="tao">
+                <img class="tao_yi ani" src="img/下载%20(4).png" alt="" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                <img class="tao_er ani" src="img/下载%20(1).png" alt="" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+        </div>
+            </div>
+        <!--第二屏幕-->
+        <div class="swiper-slide er">
+            <img class="yi_yi ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" src="img/下载%20(5).png" alt="">
+            <img class="hua ani" src="img/下载%20(9).png" alt=""  swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s">
+            <img class=" you ani  "  src="img/下载%20(6).png" alt="#" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="zuo ani" style="bottom: 15%!important;" src="img/下载%20(7).png" alt="#" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <div class="er_text" >
+                <img src="img/text.png" class=" ani" swiper-animate-effect=" zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s" alt="">
+            </div>
+            <span class="zuoyi ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">诚</span>
+            <span class="zuoer ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">挚</span>
+            <span class="youyi ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">邀</span>
+            <span class="youer ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">请</span>
+            <div class="er_text_text ani"  swiper-animate-effect=" zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s" >
+                <p>尊敬的先生/女士：<br>
+                    您好！我们诚挚邀请您于xxxxxx月xx日xx时，在xxxxxxx酒店召开的由xxxxxx公司主办的“2017新品发布会”。本此活动力邀多位行业专家
+                    ，众多知名商家，共同探讨行业之路的机遇和挑战，见证xxxx的未来发展，
+                    谨此，我们诚邀您出席本次发布会，中心感谢您的支持和指导！<br>
+                盛邦升华校企合作培训基地<br>
+                </p>
+            </div>
+            <img class="sahua ani" src="img/下载.png" alt="" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="2s">
+
+
+        </div>
+        <!--第三屏幕-->
+        <div class="swiper-slide san">
+            <img class="yi_yi ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" src="img/下载%20(5).png" alt="">
+            <img class="hua ani" src="img/下载%20(9).png" alt=""  swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s">
+            <img class=" you ani  "  src="img/下载%20(6).png" alt="#" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="zuo ani" style="bottom: 15%!important;" src="img/下载%20(7).png" alt="#" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="sahua ani" src="img/下载.png" alt="" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="2s">
+            <div class="er_text" >
+                <img src="img/text.png" class=" ani" swiper-animate-effect=" zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s" alt="">
+            </div>
+            <!--<span class="zuoyi ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">地</span>-->
+            <!--<span class="zuoer ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">址</span>-->
+            <!--<span class="youyi ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">导</span>-->
+            <!--<span class="youer ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">航</span>-->
+
+        </div>
+        <!--第四瓶目-->
+        <div class="swiper-slide si" style="z-index: 99999">
+            <div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+
+        </div>
+    </div>
+    <!--如果需要分割器-->
+    <div class="swiper-pagination"></div>
+    <!--导航按钮-->
+    <div class="next"><img src="img/下载%20(8).png" alt=""></div>
+</div>
+
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="css/js/swiper.min.js"></script>
+<script src="css/swiper.animate1.0.2.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'vertical',
+        // 如果需要滚动条
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        },
+        //页面分割器
+        pagination: {
+            el: '.swiper-pagination',
+            type:'progressbar'
+            // type: 'bullets',
+
+        },
+        on:{
+            init: function(){
+                swiperAnimateCache(this); //隐藏动画元素
+                swiperAnimate(this); //初始化完成开始动画
+            },
+            slideChangeTransitionEnd: function(){
+                swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+            }
+        }
+
+    });
+</script>
+<script>
+    var music=document.getElementById("music");
+    var musicImg=document.querySelector(".musicImg")[0];
+    var audio=document.querySelectorAll("audio")[0];
+
+    var flag=1;
+    music.onclick=function(){
+        if(flag==1){
+            music.style.animation="none";
+            audio.pause();//停止播放
+            flag=0;
+        }else{
+            music.style.animation=" xuanzhuang 2s linear infinite";
+            audio.play();//开始播放
+            flag=1;
+        }
+    }
+</script>
+<!--百度地图-->
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){
+        map = new BMap.Map("map");
+        map.centerAndZoom(new BMap.Point(116.575552,38.080254),17);
+    }
+    function setMapEvent(){
+        map.enableScrollWheelZoom();
+        map.enableKeyboard();
+        map.enableDragging();
+        map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+        target.addEventListener("click",function(){
+            target.openInfoWindow(window);
+        });
+    }
+    function addMapOverlay(){
+        var markers = [
+            {content:"这里",title:"我的标记",imageOffset: {width:0,height:3},position:{lat:38.082541,lng:116.577277}}
+        ];
+        for(var index = 0; index < markers.length; index++ ){
+            var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+            var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+                    imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+                })});
+            var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+            var opts = {
+                width: 200,
+                title: markers[index].title,
+                enableMessage: false
+            };
+            var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+            marker.setLabel(label);
+            addClickHandler(marker,infoWindow);
+            map.addOverlay(marker);
+        };
+    }
+    //向地图添加控件
+    function addMapControl(){
+        var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+        map.addControl(scaleControl);
+        var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(navControl);
+        var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+        map.addControl(overviewControl);
+    }
+    var map;
+    initMap();
+</script>
+</body>
+</html>
