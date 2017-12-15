@@ -1,0 +1,259 @@
+
+li{
+    list-style: none;
+}
+img{
+    position: absolute;
+}
+.swiper-container{
+    width: 100%;
+    height: 100vh;
+    /*margin: auto;*/
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    background: url("../img/下载.jpg");
+}
+
+.next{
+    position: absolute;
+    bottom: 0.5%;
+    top:auto ;
+    left: 42%;
+    animation: tou 1s linear infinite;
+    width: 134px;
+    height: 100px;
+    z-index: 999999;
+}
+.next img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes tou {
+    from{
+        bottom: 2%;
+        opacity:1;
+    }
+    to{
+        bottom: 5%;
+        opacity:0;
+    }
+}
+.yi_yi{
+    margin-left: -200px;
+}
+.zi{
+    width: 80%;
+    left: 70px;
+    height: 60%;
+    top: 367px;
+}
+.hua{
+    width: 100%;
+    bottom: 0;
+}
+.you{
+    right: 0;
+    top: 14%;
+}
+
+.zuo{
+    bottom: 25%;
+    left: 0 ;
+
+}
+.yuanhua{
+    top: 32%;
+    left: 24%;
+
+}
+#music{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    z-index: 9;
+    animation: xuanzhuang 2s linear infinite;
+}
+#music .musicImg{
+    width: 100%;
+    height: 100%;
+}
+@keyframes xuanzhuang {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.tao{
+    height: 60%;
+    margin: 352px auto;
+    border-radius: 0;
+    box-shadow: black 0 0 0;
+    border-style: none;
+
+}
+.tao img{
+    left: 33%;
+}
+.tao_yi{
+    top: 26%;
+}
+.tao_er{
+    top: 29%;
+    left: 42%!important;
+}
+
+.sahua{
+    top: 25% ;
+    left: 24%;
+    z-index: 999999999;
+}
+
+/*第二屏幕*/
+
+.er_text img{
+    top: 17%;
+    left: 9%;
+    width: 85%;
+    height: 66%;
+    z-index: -2;
+}
+/*四个球*/
+.er span{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    font-size: 65px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-weight: bold;
+}
+.zuoyi{
+    background: url("../img/qiu.png")no-repeat;
+    background-size: 100% 100%;
+    top: 22%;
+    left: 30%;
+}
+.zuoer{
+    background: url("../img/qiu.png")no-repeat 100% 100%;
+    background-size: 100% 100%;
+    left: 40%;
+    top: 22%;
+}
+.youyi{
+    background: url("../img/qiu.png")no-repeat 100% 100%;
+    background-size: 100% 100%;
+    left: 50%;
+    top: 22%;
+}
+.youer{
+    background: url("../img/qiu.png")no-repeat 100% 100%;
+    background-size: 100% 100%;
+    top:22%;
+    left: 60%;
+}
+.er_text_text{
+    position: absolute;
+    color: #ffffff;
+    top: 30%;
+    width: 588px;
+    left: 22%;
+    font-size: 40px;
+}
+/*第三屏幕*/
+.san span{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    font-size: 65px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-weight: bold;
+}
+.liucheng{
+    width: 600px;
+    color: rgb(177, 146, 65);
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.liucheng ul li{
+    list-style: none;
+    height: 80px;
+    font-weight: bold;
+    line-height:80px;
+}
+.liucheng ul li div{
+    width: 210px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+
+}
+.zhongjian{
+    width: 100px!important;
+    height: 20px!important;
+    text-align: center;
+}
+.si span{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    font-size: 65px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-weight: bold;
+}
+/*第四屏*/
+.dizhi{
+    width: 500px;
+    font-size: 40px;
+    color: #ffffff;
+
+    margin-left: 20%;
+}
+/*第五屏幕*/
+.wu span{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    font-size: 65px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    font-weight: bold;
+}
+.wu .form{
+    width: 700px;
+    margin-top: 70%;
+    margin-left: 25%;
+}
+.wu .form p{
+    margin-bottom: 40px;
+}
+.wu .form input{
+    height: 69px;
+    padding-left: 56px;
+    font-size: 44px;
+    width: 475px;
+    border-radius: 30px;
+}
+.wu .form button{
+    height: 69px;
+    width: 540px;
+    text-align: center;
+    line-height:69px;
+    border-radius: 30px;
+    font-size: 45px;
+    border-color: rgb(177, 146, 65);
+    background: rgb(177, 146, 65);
+}

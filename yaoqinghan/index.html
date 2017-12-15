@@ -6,169 +6,7 @@
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=WG2HTpPrQgvEtbsb4sjnZzXrpFQGEUoL	"></script>
     <link rel="stylesheet" href="css/css/swiper.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
-    <style>
-        img{
-            position: absolute;
-        }
-.swiper-container{
-    width: 100%;
-    height: 100vh;
-    /*margin: auto;*/
-}
-.swiper-slide{
-    width: 100%;
-    height: 100%;
-    background: url("img/下载.jpg");
-}
-
-       .next{
-           position: absolute;
-           bottom: 0.5%;
-           top:auto ;
-           left: 42%;
-           animation: tou 1s linear infinite;
-           width: 134px;
-           height: 100px;
-           z-index: 999999;
-       }
-       .next img{
-           width: 100%;
-           height: 100%;
-       }
-@keyframes tou {
-    from{
-        bottom: 2%;
-       opacity:1;
-    }
-    to{
-        bottom: 5%;
-        opacity:0;
-    }
-               }
-.yi_yi{
-   margin-left: -200px;
-}
-        .zi{
-            width: 80%;
-            left: 70px;
-            height: 60%;
-            top: 367px;
-        }
-        .hua{
-            width: 100%;
-            bottom: 0;
-        }
-        .you{
-            right: 0;
-            top: 14%;
-        }
-
-        .zuo{
-            bottom: 25%;
-            left: 0 ;
-
-        }
-        .yuanhua{
-            top: 32%;
-            left: 24%;
-
-        }
-#music{
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    right: 50px;
-    top: 50px;
-    z-index: 9;
-    animation: xuanzhuang 2s linear infinite;
-}
-        #music .musicImg{
-            width: 100%;
-            height: 100%;
-        }
-        @keyframes xuanzhuang {
-            0%{
-                transform: rotate(0deg);
-            }
-            100%{
-                transform: rotate(360deg);
-            }
-        }
-        .tao{
-            height: 60%;
-            margin: 352px auto;
-            border-radius: 0;
-            box-shadow: black 0 0 0;
-            border-style: none;
-
-        }
-        .tao img{
-            left: 33%;
-        }
-        .tao_yi{
-            top: 26%;
-        }
-        .tao_er{
-            top: 29%;
-            left: 42%!important;
-        }
-
-        .sahua{
-            top: 25% ;
-            left: 24%;
-            z-index: 999999999;
-        }
-
-/*第二屏幕*/
-
-        .er_text img{
-            top: 17%;
-            left: 9%;
-            width: 85%;
-            height: 66%;
-        }
-/*四个球*/
- .er span{
-     position: absolute;
-     width: 100px;
-     height: 140px;
-     color: #ffffff;
-     font-size: 55px;
-     text-align: center;
-     line-height: 150px;
- }
-.zuoyi{
-    background: url("img/qiu.png")no-repeat 100% 100%;
-    top: 20%;
-    left: 33%;
-}
-.zuoer{
-    background: url("img/qiu.png")no-repeat 100% 100%;
-    left: 43%;
-    top: 20%;
-}
-.youyi{
-    background: url("img/qiu.png")no-repeat 100% 100%;
-    left: 53%;
-    top: 20%;
-}
-.youer{
-    background: url("img/qiu.png")no-repeat 100% 100%;
-    top:20%;
-    left: 63%;
-}
-        .er_text_text{
-            position: absolute;
-            color: #ffffff;
-            top: 32%;
-            width: 588px;
-            left: 22%;
-            font-size: 40px;
-        }
-        #map{
-
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="kuang">
@@ -209,10 +47,11 @@
             <span class="youer ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">请</span>
             <div class="er_text_text ani"  swiper-animate-effect=" zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s" >
                 <p>尊敬的先生/女士：<br>
-                    您好！我们诚挚邀请您于xxxxxx月xx日xx时，在xxxxxxx酒店召开的由xxxxxx公司主办的“2017新品发布会”。本此活动力邀多位行业专家
+                    您好！我们诚挚邀请您于xxxxxx月xx日xx时，在泊头职业学院主办的“双选会”。本此活动力邀多位企业
                     ，众多知名商家，共同探讨行业之路的机遇和挑战，见证xxxx的未来发展，
-                    谨此，我们诚邀您出席本次发布会，中心感谢您的支持和指导！<br>
-                盛邦升华校企合作培训基地<br>
+                    谨此，我们诚邀您出席本次发布会，感谢您的支持和指导！<br>
+                盛邦升华校企合作培训基地
+                    <br>2017年x年xx日
                 </p>
             </div>
             <img class="sahua ani" src="img/下载.png" alt="" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="2s">
@@ -229,17 +68,72 @@
             <div class="er_text" >
                 <img src="img/text.png" class=" ani" swiper-animate-effect=" zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s" alt="">
             </div>
-            <!--<span class="zuoyi ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">地</span>-->
-            <!--<span class="zuoer ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">址</span>-->
-            <!--<span class="youyi ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">导</span>-->
-            <!--<span class="youer ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">航</span>-->
+            <span class="zuoyi ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">会</span>
+            <span class="zuoer ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">议</span>
+            <span class="youyi ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">流</span>
+            <span class="youer ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">程</span>
+            <div class="liucheng">
+                <ul>
+                    <li class="ani" swiper-animate-effect=" fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1s"><div>08:00-09:00</div> <div class="zhongjian"><img src="img/xiaodian.png" alt=""></div> <div>欢迎嘉宾入席</div></li>
+                    <li class="ani" swiper-animate-effect=" fadeInLeft"  swiper-animate-duration="1s" swiper-animate-delay="1.1s"><div>08:00-09:00</div> <div class="zhongjian"><img src="img/xiaodian.png" alt=""></div> <div>欢迎嘉宾入席</div></li>
+                    <li class="ani" swiper-animate-effect=" fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><div>08:00-09:00</div> <div class="zhongjian"><img src="img/xiaodian.png" alt=""></div> <div>欢迎嘉宾入席</div></li>
+                    <li class="ani" swiper-animate-effect=" fadeInLeft" swiper-animate-duration="1" swiper-animate-delay="1.3s"><div>08:00-09:00</div> <div class="zhongjian"><img src="img/xiaodian.png" alt=""></div> <div>欢迎嘉宾入席</div></li>
+                    <li class="ani" swiper-animate-effect=" fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.4s"><div>08:00-09:00</div> <div class="zhongjian"><img src="img/xiaodian.png" alt=""></div> <div>欢迎嘉宾入席</div></li>
+                    <li class="ani" swiper-animate-effect=" fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.5s"><div>08:00-09:00</div> <div class="zhongjian"><img src="img/xiaodian.png" alt=""></div> <div>欢迎嘉宾入席</div></li>
+                    <li class="ani" swiper-animate-effect=" fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.6s"><div>08:00-09:00</div> <div class="zhongjian"><img src="img/xiaodian.png" alt=""></div> <div>欢迎嘉宾入席</div></li>
+                </ul>
+            </div>
 
         </div>
         <!--第四瓶目-->
         <div class="swiper-slide si" style="z-index: 99999">
-            <div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+            <img class="yi_yi ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" src="img/下载%20(5).png" alt="">
+            <img class="hua ani" src="img/下载%20(9).png" alt=""  swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s">
+            <img class=" you ani  "  src="img/下载%20(6).png" alt="#" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="zuo ani" style="bottom: 15%!important;" src="img/下载%20(7).png" alt="#" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="sahua ani" src="img/下载.png" alt="" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="2s">
+            <div class="er_text" >
+                <img src="img/text.png" class=" ani" swiper-animate-effect=" zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s" alt="">
+            </div>
+            <span class="zuoyi ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">地</span>
+            <span class="zuoer ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">址</span>
+            <span class="youyi ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">导</span>
+            <span class="youer ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">航</span>
+                <!--这是地图-->
+            <div style="width:663px;height:400px;border:#ccc solid 1px;font-size:12px;margin-top: 64%;margin-left: 18%;" id="map"></div>
+            <!--这是地址-->
+            <div class="dizhi ani" swiper-animate-effect=" zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+                <p>地址：河北省沧州市泊头市解放西路光明街150号</p>
+                <p>联系电话：xxxxxx</p>
+                <p>联系人：xxxxxx</p>
+            </div>
+        </div>
+        <!--第五屏幕-->
+        <div class="swiper-slide wu">
+            <img class="yi_yi ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s" src="img/下载%20(5).png" alt="">
+            <img class="hua ani" src="img/下载%20(9).png" alt=""  swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.5s">
+            <img class=" you ani  "  src="img/下载%20(6).png" alt="#" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="zuo ani" style="bottom: 15%!important;" src="img/下载%20(7).png" alt="#" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+            <img class="sahua ani" src="img/下载.png" alt="" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="2s">
+            <div class="er_text" >
+                <img src="img/text.png" class=" ani" swiper-animate-effect=" zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s" alt="">
+            </div>
+            <span class="zuoyi ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">报</span>
+            <span class="zuoer ani" swiper-animate-effect=" bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">名</span>
+            <span class="youyi ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">参</span>
+            <span class="youer ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1s" alt="">加</span>
+
+            <div class="form">
+                <form action="">
+                    <p class="ani" swiper-animate-effect=" fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1s"><input type="text" placeholder="姓名*"></p>
+                    <p class="ani" swiper-animate-effect=" fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s"><input type="text" placeholder="联系电话*"></p>
+                    <p class="ani" swiper-animate-effect=" fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1s"><input type="text" placeholder="留言"></p>
+                    <p class="ani" swiper-animate-effect=" fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s"><button type="button">提交</button></p>
+                </form>
+            </div>
 
         </div>
+
     </div>
     <!--如果需要分割器-->
     <div class="swiper-pagination"></div>
