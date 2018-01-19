@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*吸收panner*/
+    /*box-sizing:center-box:   不会吸收panner*/
+    font-size: 0.3rem;
+}
+li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+span{
+    display: inline-block;
+}
+em{
+    font-style: normal;
+}
+.body{
+    width: 540px;
+    margin: auto;
+}
+/*header*/
+header{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+header div.tru{
+    height: 1rem;
+    width: 10rem;
+    background: #FE5500 url(../img/logo.png) no-repeat 0.12rem;
+    background-size: 0.72rem 0.546rem;
+    position: relative;
+}
+header div.tru a{
+    width: 8.813rem;
+    height: 0.666rem;
+    background: #B52700;
+    display: block;
+    position: absolute;
+    top:0.16rem;
+    right: 0.2rem;
+    border-radius: 0.12rem;
+    text-align: center;
+    line-height: 0.666rem;
+    color: #FCFCFC;
+}
+
+/*轮播图*/
+
+
+.swiper-container .swiper-wrapper .swiper-slide img{
+ width:100%;
+}
+/*以下是导航*/
+div.mulu{
+    width: 10rem;
+    background: #fff;
+}
+div.mulu .mulu-top{
+    height: 4.72rem;
+}
+div.mulu .mulu-top .top-bian{
+    height: 2.36rem;
+}
+div.mulu .mulu-top .top-bian .tianmao{
+    width: 1.725rem;
+    height: 2.125rem;
+    float: left;
+    margin-left: 0.21rem;
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaotupian{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/01.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .juhuasua{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/02.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaoguoji{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/03.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .waimai{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/04.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaochaoshi{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/05.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .chuongzhi{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/06.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .feizhu{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/07.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .lingjingbi{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/08.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .paimai{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/09.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .fenlei{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/10.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
+    box-sizing: border-box;
+    line-height: 0.688rem;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    background-color: transparent;
+    width: 1.625rem;
+    height: 0.688rem;
+}
+/*疯狂抢购*/
+.banner1{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 5.063rem;
+}
+.banner1 .banner1_left{
+    width: 3.828rem;
+    height: 5.063rem;
+    background: url("../img/haiqianggou.jpg");
+    background-size: contain;
+    border-right: 1px solid #eeeeee;
+    float: left;
+}
+.banner1 .banner1_top{
+    width: 6.150rem;
+    height: 2.531rem;
+    float: left;
+}
+.banner1 .banner1_top .banner1_top_right{
+    width: 3.074rem;
+    height: 2.531rem;
+    background: url("../img/bann1_top_left.jpg");
+    background-size: contain;
+    float: left;
+}
+.banner1 .banner1_top .banner1_top_left{
+    width: 3.074rem;
+    height: 2.531rem;
+    background: url("../img/banner1_top_right.png");
+    background-size: contain;
+    float: right;
+}
+.banner1 .banner1_bootm_left{
+    width: 3.074rem;
+    height: 2.531rem;
+    background: url("../img/banner1_bootm_left.jpg");
+    background-size: contain;
+    float: left;
+}
+.banner1 .banner1_bootm_right{
+    width: 3.074rem;
+    height: 2.531rem;
+    background: url("../img/banner1_bootm_right.png");
+    background-size: contain;
+    float: left;
+}
+/*间隙*/
+.gap{
+    width: 10rem;
+    height: 0.2rem;
+    background: #eeeeee;
+}
+/*超实惠*/
+.affordable{
+    width: 10rem;
+    height: 6.734rem;
+}
+.affordable .Headline{
+    width: 10rem;
+    height: 0.8rem;
+    color: red;
+    text-align: center;
+    line-height:0.8rem;
+    border-bottom: 1px solid #eeeeee;
+    background: white;
+}
+/*affordable_top*/
+.affordable .affordable_top{
+    width: 10rem;
+    height: 2.916rem;
+}
+.affordable .affordable_top .affordable_top1{
+    width: 3.828rem;
+    height: 2.916rem;
+    background: url("../img/affordable_top1.jpg");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.affordable .affordable_top .affordable_top2{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/affordable_top2.png");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+}
+.affordable .affordable_top .affordable_top3{
+        width: 2.041rem;
+        height: 2.916rem;
+        background: url("../img/affordable_top3.png");
+        background-size: contain;
+        float: left;
+        border-right: 1px solid #eeeeee;
+}
+.affordable .affordable_top .affordable_top4{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/affordable_top4.jpg");
+    background-size: contain;
+    float: left;
+}
+/*affordable_bottom*/
+.affordable .affordable_bottom{
+    width: 10rem;
+    height: 2.916rem;
+}
+.affordable .affordable_bottom1{
+    width: 3.828rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/affordable_bottom1.png");
+    background-size: contain;
+}
+.affordable .affordable_bottom2{
+    width: 2.041rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/affordable_bottom2.jpg");
+    background-size: contain;
+}
+.affordable .affordable_bottom3{
+    width: 2.041rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/affordable_bottom3.jpg");
+    background-size: contain;
+}
+.affordable .affordable_bottom4{
+    width: 2.041rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/affordable_bottom4.png");
+    background-size: contain;
+}
+/*天猫必逛*/
+.Lynx{
+    width:10rem;
+    height: 6.734rem;
+}
+.Lynx .visit{
+    width: 10rem;
+    height: 0.8rem;
+    color: red;
+    text-align: center;
+    line-height:0.8rem;
+    border-bottom: 1px solid #eeeeee;
+    background: white;
+}
+.Lynx .Lynx_top{
+width: 10rem;
+height: 2.967rem;
+
+}
+.Lynx .Lynx_top .Lynx_top_left{
+    width: 5rem;
+    height: 2.967rem;
+    background: url("../img/Lynx_top_left.png");
+    background-size:contain;
+    float: left;
+    border-right:1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee ;
+}
+
+.Lynx .Lynx_top .Lynx_top_right{
+    width: 5rem;
+    height: 2.967rem;
+    background: url("../img/Lynx_top_right.png");
+    background-size:contain;
+    float: left;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.Lynx .Lynx_bottom{
+    width: 10rem;
+    height: 2.967rem;
+}
+
+.Lynx .Lynx_bottom .Lynx_bottom1{
+    width: 2.5rem;
+    height: 2.967rem;
+    background: url("../img/Lynx_bottom1.png");
+    background-size: contain;
+    float: left;
+    border-right:1px solid #eeeeee;
+}
+.Lynx .Lynx_bottom .Lynx_bottom2{
+    width: 2.5rem;
+    height: 2.967rem;
+    background: url("../img/Lynx_bottom2.jpg");
+    background-size: contain;
+    float: left;
+    border-right:1px solid #eeeeee;
+}
+.Lynx .Lynx_bottom .Lynx_bottom3{
+    width: 2.5rem;
+    height: 2.967rem;
+    background: url("../img/Lynx_bottom3.jpg");
+    background-size: contain;
+    float: left;
+    border-right:1px solid #eeeeee;
+}
+.Lynx .Lynx_bottom .Lynx_bottom4{
+    width: 2.5rem;
+    height: 2.967rem;
+    background: url("../img/Lynx_bottom4.jpg");
+    background-size: contain;
+    float: left;
+}
+/*特色好货*/
+.Features{
+    width:10rem;
+    height: 6.734rem;
+}
+.Features .good{
+    width: 10rem;
+    color: rgb(255, 104, 19);
+    text-align: center;
+    line-height:0.8rem;
+    border-bottom: 1px solid #eeeeee;
+    background: white;
+}
+.Features .Features_top{
+    width: 10rem;
+    height: 2.916rem;
+}
+.Features .Features_top .Features_top_1{
+    width: 3.828rem;
+    height: 2.916rem;
+    background: url("../img/Features_top_1.png");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.Features .Features_top .Features_top_2{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/Features_top_2.jpg");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+}
+.Features .Features_top .Features_top_3{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/Features_top_3.png");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+}
+.Features .Features_top .Features_top_4{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/Features_top_4.png");
+    background-size: contain;
+    float: left;
+}
+.Features .Features_bottom{
+    width: 10rem;
+    height: 2.916rem;
+}
+.Features .Features_bottom .Features_bottom_1{
+    width: 3.828rem;
+    height: 2.916rem;
+    background: url("../img/Features_bottom_1.png");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+}
+.Features .Features_bottom .Features_bottom_2{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/Features_bottom_2.png");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+}
+.Features .Features_bottom .Features_bottom_3{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/Features_bottom_3.png");
+    background-size: contain;
+    float: left;
+    border-right: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+}
+.Features .Features_bottom .Features_bottom_4{
+    width: 2.041rem;
+    height: 2.916rem;
+    background: url("../img/Features_bottom_4.jpg");
+    background-size: contain;
+    float: left;
+    border-top: 1px solid #eeeeee;
+}
+/*0.1元抢好货*/
+.yuan{
+    width:10rem;
+    height: 2rem;
+    background: url("../img/0..jpg");
+    background-size: contain;
+}
+/*每日好店*/
+.shop{
+    width: 10rem;
+    height: 1rem;
+}
+.shop .shop_dian{
+    width: 0.156rem;
+    height: 1rem;
+    background-color: rgb(255, 155, 67);
+    float: left;
+}
+.shop .shop_left{
+    width: 4.656rem;
+    height: 1rem;
+    line-height: 0.969rem;
+    color: rgb(34, 34, 34);
+    background-color: transparent;
+    margin-left: 0.188rem;
+    float: left;
+}
+.shop .shop_right{
+    width: 4.8rem;
+    height: 1rem;
+    color: rgb(34, 34, 34);
+    background-color: transparent;
+    margin-left: 0.188rem;
+    float: left;
+    line-height:1rem;
+    text-align: right;
+    padding-right: 2px;
+}
+.shop .shop_right .shop_right_right{
+    width: 0.406rem;
+    height: 0.406rem;
+    background: url("../img/jiantou.png")no-repeat;
+    background-size: contain;
+
+}
+/*两站轮播图*/
+
+
+ /*有的上一个的样式换的图片*/
+ #you{
+    background: url("../img/you_zuo.jpg");
+     background-size: cover;
+}
+#you_zuo #you_you1{
+background: url("../img/you_you1.jpg");
+    background-size: cover;
+}
+#you_zuo #you_you2{
+    background: url("../img/you_you2.jpg");
+    background-size: cover;
+}
+
+/*轮播图第二叶*/
+#zuo_zuo{
+    background: url("../img/zuo_zuo.jpg");
+    background-size: cover;
+}
+#zuo_you #zuo_you1{
+    background: url("../img/zuo_you1.jpg");
+    background-size: cover;
+}
+#zuo_you #zuo_you2{
+    background: url("../img/zuo_you2.jpg");
+    background-size: cover;
+}
+
+#er_you_zuo{
+    background: url("../img/er_you_zuo.jpg");
+    background-size: cover;
+}
+#er_you_you #er_you_you1{
+    background: url("../img/er_you_you1.jpg");
+    background-size: cover;
+}
+#er_you_you #er_you_you2{
+    background: url("../img/er_you_you2.jpg");
+    background-size: cover;
+}
+/*一下是淘宝底部*/
+.footer{
+width: 10rem;
+    background-color: #4e525e;
+    padding: 0.5625rem 0.25rem;
+}
+.footer a{
+    color: #c3c6ca;
+}
+.footer_top{
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    /*justify-content: space-between;*/
+}
+.footer_top a{
+    display: block;
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    color: #c3c6ca;
+    border: 2px solid #42454d;
+    background-color: #555965;
+    padding: 0 0.46875rem;
+}
+.footer_bottom{
+    width: 100%;
+    margin-top: 0.5625rem;
+    height: 0.5625rem;
+    line-height: 0.5625rem;
+    padding-left: 3.03125rem;
+    background: url("../img/quanc.png")no-repeat;
+    background-position: 2.3rem;
+    background-size: 0.53125rem 0.53125rem;
+    color: #c3c6ca;
+
+}
+
+/*返回顶部*/
+#top{
+    width: 1rem;
+    height: 1rem;
+    position: fixed;
+    z-index: 9999;
+    top: 76%;
+    background: white;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: 50%;
+    display: none;
+    right: 10px;
+    color: #686869;
+
+}

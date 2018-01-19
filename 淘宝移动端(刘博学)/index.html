@@ -1,0 +1,272 @@
+<!doctype html>
+<html data-dpr="1" style="font-size: 36px;">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport">-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+</head>
+<body style="background: #eeeeee;">
+
+<header>
+    <div class="tru">
+        <a href="">
+            寻找宝贝店铺
+        </a>
+    </div>
+</header>
+<!--轮播图-->
+    <div class="swiper-container" style="margin-top: 1.05rem!important;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/lbt01.jpg"/></div>
+            <div class="swiper-slide"><img src="img/lbt02.jpg"/></div>
+            <div class="swiper-slide"><img src="img/lbt03.jpg"/></div>
+            <div class="swiper-slide"><img src="img/lbt04.jpg"/></div>
+            <div class="swiper-slide"><img src="img/lbt05.jpg"/></div>
+            <div class="swiper-slide"><img src="img/lbt06.jpg"/></div>
+        </div>
+        <!--如果需要分页器-->
+        <div class="swiper-pagination"></div>
+    </div>
+
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay:true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination'
+        }
+
+    })
+</script>
+<!--间隙-->
+<div class="gap"></div>
+<!--以下是导航-->
+<div class="mulu">
+    <!--第一条导航-->
+    <div class="mulu-top">
+        <div class="top-bian">
+            <div class="tianmao" onclick="window.open('tianmao.html')">
+                <div class="tianmaotupian">
+                </div>
+                <div class="tianmaozi">天猫</div>
+            </div>
+            <div class="tianmao">
+                <div class="juhuasua">
+                </div>
+                <div class="tianmaozi">聚划算</div>
+            </div>
+            <div class="tianmao">
+                <div class="tianmaoguoji">
+                </div>
+                <div class="tianmaozi">天猫国际</div>
+            </div>
+            <div class="tianmao">
+                <div class="waimai">
+                </div>
+                <div class="tianmaozi">外卖</div>
+            </div>
+            <div class="tianmao">
+                <div class="tianmaochaoshi">
+                </div>
+                <div class="tianmaozi">天猫超市</div>
+            </div>
+        </div>
+        <div class="top-bian">
+            <div class="tianmao">
+                <div class="chuongzhi" onclick="window.open('chongzhi.html')">
+                </div>
+                <div class="tianmaozi">充值中心</div>
+            </div>
+            <div class="tianmao">
+                <div class="feizhu">
+                </div>
+                <div class="tianmaozi">飞猪旅行</div>
+            </div>
+            <div class="tianmao">
+                <div class="lingjingbi">
+                </div>
+                <div class="tianmaozi">领金币</div>
+            </div>
+            <div class="tianmao">
+                <div class="paimai">
+                </div>
+                <div class="tianmaozi">拍卖</div>
+            </div>
+            <div class="tianmao">
+                <div class="fenlei">
+                </div>
+                <div class="tianmaozi">分类</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--抢购有好货-->
+<div class="banner1">
+    <div class="banner1_left"></div>
+    <div class="banner1_top">
+        <div class="banner1_top_left"></div>
+        <div class="banner1_top_right"></div>
+    </div>
+    <div class="banner1_bootm_left"></div>
+    <div class="banner1_bootm_right"></div>
+</div>
+
+<!--间隙-->
+<div class="gap"></div>
+
+<!--超实惠-->
+<div class="affordable">
+    <!--头条-->
+    <div class="Headline">超实惠</div>
+    <!---->
+    <div class="affordable_top">
+        <div class="affordable_top1"></div>
+        <div class="affordable_top2"></div>
+        <div class="affordable_top3"></div>
+        <div class="affordable_top4"></div>
+    </div>
+    <div class="affordable_bottom">
+        <div class="affordable_bottom1"></div>
+        <div class="affordable_bottom2"></div>
+        <div class="affordable_bottom3"></div>
+        <div class="affordable_bottom4"></div>
+    </div>
+</div>
+
+<!--间隙-->
+<div class="gap"></div>
+
+<!--天猫 必逛-->
+<div class="Lynx">
+    <div class="visit">天猫必逛</div>
+    <!---->
+    <div class="Lynx_top">
+        <div class="Lynx_top_left"></div>
+        <div class="Lynx_top_right"></div>
+    </div>
+<!---->
+    <div class="Lynx_bottom">
+        <div class="Lynx_bottom1"></div>
+        <div class="Lynx_bottom2"></div>
+        <div class="Lynx_bottom3"></div>
+        <div class="Lynx_bottom4"></div>
+    </div>
+</div>
+
+<!--间隙-->
+<div class="gap"></div>
+
+<!--特色好货，，-->
+
+<div class="Features">
+    <!---->
+    <div class="good">特色好货</div>
+    <!---->
+    <div class="Features_top">
+        <div class="Features_top_1"></div>
+        <div class="Features_top_2"></div>
+        <div class=" Features_top_3"></div>
+        <div class=" Features_top_4"></div>
+    </div>
+    <div class="Features_bottom">
+        <div class=" Features_bottom_1"></div>
+        <div class=" Features_bottom_2"></div>
+        <div class=" Features_bottom_3"></div>
+        <div class=" Features_bottom_4"></div>
+    </div>
+</div>
+
+<!--0.1元抢好货-->
+<div class="yuan"></div>
+
+<!--间隙-->
+<div class="gap"></div>
+
+<!--每日好店-->
+<div class="shop">
+    <div class="shop_dian"></div>
+    <div class="shop_left">每日好店</div>
+    <div class="shop_right">更多 <span class="shop_right_right"></span></div>
+</div>
+<!--滑动轮播-->
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/lbt01.jpg"/></div>
+        <div class="swiper-slide"><img src="img/lbt02.jpg"/></div>
+    </div>
+    <!--如果需要分页器-->
+    <div class="swiper-pagination"></div>
+</div>
+
+
+
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        autoplay:true,
+//   swiper 分屏器
+        pagination: {
+            el: '.swiper-pagination'
+        }
+    })
+</script>
+<!--间隙-->
+<div class="gap"></div>
+<!--底部导航-->
+<div class="footer">
+        <div class="footer_top">
+            <a href="javascript:void(0)">登录</a>
+            <a href="javascript:void(0)">注册</a>
+            <a href="javascript:void(0)">电脑版</a>
+            <a href="javascript:void(0)">用户反馈</a>
+        </div>
+
+        <div class="footer_bottom">
+            2016 浙 B2-20080224
+            <a href="javascript:void(0)">服务中心</a>
+        </div>
+</div>
+
+
+    <!--返回顶部-->
+    <div id="top">顶部</div>
+    <script>
+        $(document).scroll(function(){
+            if($(".banner1").offset().top < $(document)
+                            .scrollTop()){
+                $("#top").show()
+            }
+            else{
+                $("#top").hide()
+            }
+        });
+        $("#top").click(function(){
+            $("body,html").animate({scrollTop:0},1000)
+        })
+    </script>
+
+
+
+<!--</div>-->
+
+
+
+<script type="text/javascript">
+    $(window).width();
+    function resize(){
+        $('html').css('font-size',($(window).width())/10+'px');
+    }
+    window.onresize=resize;
+    resize();
+    $(function(){resize();});
+</script>
+</body>
+</html>

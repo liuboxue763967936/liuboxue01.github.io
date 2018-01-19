@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html data-dpr="1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <meta name="aplus-terminal" content="1">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/tianmao.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body data-spm="8443192">
+<div id="center">
+
+<!--头部-->
+<div class="head">
+
+    <div class="head_left"></div>
+
+    <div class="head_center"></div>
+
+    <div class="head_right">登录</div>
+
+    <div class="input"><img src="tianmaoimg/fangdajiang.png" alt="#" class=""><input type="text" placeholder="搜索商品、品牌"></div>
+
+</div>
+    <!--下半身-->
+    <div class="Lower">
+    <!--导航-->
+    <div class="neck">
+           <nav>
+             <div class="nav_1"><img src="tianmaoimg/suning" alt=""><span>苏宁易购</span></div>
+             <div class="nav_1"><img src="tianmaoimg/chaoshi.png" alt=""><span>天猫超市</span></div>
+             <div class="nav_1"><img src="tianmaoimg/tianmaoguoji" alt=""><span>天猫国际</span></div>
+             <div class="nav_1"><img src="tianmaoimg/juhuasuan" alt=""><span>聚划算</span></div>
+             <div class="nav_1"><img src="tianmaoimg/fenlei" alt=""><span>分类</span></div>
+           </nav>
+    </div>
+        <!--轮播图-->
+        <div class="swiper-container" style="margin-top: .1rem; width:10rem">
+           <div class="swiper-wrapper">
+               <div class="swiper-slide"><img src="tianmaoimg/lbt1" alt="" width="100%"></div>
+               <div class="swiper-slide"><img src="tianmaoimg/lbt2" alt=""></div>
+               <div class="swiper-slide"><img src="tianmaoimg/lbt3" alt=""></div>
+               <div class="swiper-slide"><img src="tianmaoimg/lbt4" alt=""></div>
+               <div class="swiper-slide"><img src="tianmaoimg/lbt5" alt=""></div>
+               <div class="swiper-slide"><img src="tianmaoimg/lbt6" alt=""></div>
+               <div class="swiper-slide"><img src="tianmaoimg/lbt7" alt=""></div>
+               <div class="swiper-slide"><img src="tianmaoimg/lbt8" alt=""></div>
+           </div>
+            <!--如果需要分页器-->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script>
+            var h =document.querySelector("body").offsetWidth;
+            var mySwiper = new Swiper('.swiper-container', {
+                spaceBetween:h,
+                direction:"horizontal",/*横向滑动*/
+                loop:true,/*形成环路（即：可以从最后一张图跳转到第一张图*/
+                autoplay:true,
+                // 如果需要分页器
+                pagination: {
+                    el: '.swiper-pagination'
+                }
+
+            })
+        </script>
+<!--天猫精品下载-->
+        <div class="download">
+            <img src="tianmaoimg/tianmaoxiazai" alt="#">
+        </div>
+        <!--天猫官方直营-->
+        <div class="Direct">
+            <div class="Direct_left">天猫官方直营</div>
+            <div class="Direct_right">官方直采·极速物流·售后无忧</div>
+        </div>
+<!--天猫超市-->
+        <div class="Supermarket">
+            <div class="Supermarket_kuang">
+                <div class="supermarket_kuang_1">天猫超市</div>
+                <div class="supermarket_kuang_2">个户加清</div>
+                <div class="supermarket_kuang_3">咱用点好的</div>
+                <div class="supermarket_kuang_4"></div>
+            </div>
+            <div class="Supermarket_right">
+                <div class="Supermarket_right_top">
+                    <div class="Supermarket_right_top_left">
+                        <img src="tianmaoimg/tianmaoguojiziti" alt="#">
+                        <div class="zi">官方至采</div>
+                        <img src="tianmaoimg/lingjuan" alt="#">
+                    </div>
+                    <div class="Supermarket_right_top_right">
+                        <img src="tianmaoimg/xiyiye" alt="">
+                    </div>
+                </div>
+
+                <div class="Supermarket_right_bottom_left">
+                    <img class="tianmao" src="tianmaoimg/tianmaoshengxian" alt="#">
+                    <span>199减30元</span>
+                    <img class="yu" src="tianmaoimg/yu" alt="#" style="">
+                </div>
+                <div class="Supermarket_right_bottom_right">
+                    <img class="meilizhi" src="tianmaoimg/meilizhi" alt="#">
+                    <span>奢品满减1000</span>
+                    <img class="pixie" src="tianmaoimg/pixie" alt="">
+                </div>
+
+            </div>
+        </div>
+        <!--品牌活动-->
+        <div class="Brand">
+        <div class="Brand_head">品牌活动</div>
+            <div class="Brand_center">
+                <div class="Brand_center_left">
+                    <img src="tianmaoimg/xie" alt="">
+                </div>
+
+
+                <div class="Brand_center_right">
+                    <div class="Brand_center_right_top">
+                        <div class="Brand_center_right_top_left">
+                            <img id="xiaoheihe" src="tianmaoimg/xiaoheihe" alt="#">
+                            <div id="you">优选新品好物</div>
+                            <div id="jin">今日上新44</div>
+                        </div>
+                        <div class="Brand_center_right_top_right">
+                            <img id="kouhong" src="tianmaoimg/kouhong" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="Brand_center_right_bottom">
+                        <div class="Brand_center_right_bottom_left">
+                            <img id="dapai" src="tianmaoimg/dapai.png" alt="#">
+                            <img id="ce" src="tianmaoimg/CE" alt="">
+                        </div>
+
+                        <div class="Brand_center_right_bottom_right">
+                            <img id="shui" src="tianmaoimg/shuilongtou" alt="#">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+<!--精选商品 1-->
+        <div class="banner">
+            <!--每行-->
+            <div class="banner1">
+                <!--左一个-->
+                <div class="banner_left">
+
+                    <div class="banner_left_top">
+                        <img class="pingguo" src="tianmaoimg/pingguo" alt="#">
+                        <div class="kuang_shouji">
+                        <img class="shouji" src="tianmaoimg/pingguoshouji" alt="#">
+                        </div>
+                        <div class="wenzi">【12期免息】Apple/苹果iPhone X 全网通4G智能手机苹果10 苹果X</div>
+                        <div class="jiage">
+                            <div>￥8388</div>
+                            <div><img src="tianmaoimg/gouwuche.png" alt=""></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="banner_left_bottom">
+                        <span><a href="javascript:void[0]">[1194人认为]</a> #性能很好 #外观不错 #手感不错
+                        <img class="jiantou" src="tianmaoimg/jiantou.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <!--右一个-->
+                <div class="banner_right">
+                    <div class="banner_left_top">
+                        <img class="pingguo" src="tianmaoimg/liangpin" alt="#">
+                        <div class="kuang_shouji">
+                            <img class="shouji" src="tianmaoimg/ganguo" alt="#">
+                        </div>
+                        <div class="wenzi">良品铺子零食大礼包年货组合一整箱好吃的混合装吃货网红小吃批发</div>
+                        <div class="jiage">
+                            <div>￥59.9</div>
+                            <div><img src="tianmaoimg/gouwuche.png" alt=""></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="banner_left_bottom">
+                        <span><sapn href="javascript:void[0]"></sapn> 该商品正在参加品牌闪购，0.01元秒年货礼盒，快
+                        <img class="jiantou" src="tianmaoimg/jiantou.png" alt="">
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+ <!--精选商品 2-->
+        <div class="banner">
+            <!--每行-->
+            <div class="banner1">
+                <!--左一个-->
+                <div class="banner_left">
+
+                    <div class="banner_left_top">
+                        <img class="pingguo" src="tianmaoimg/sur" alt="#">
+                        <div class="kuang_shouji">
+                            <img class="shouji" src="tianmaoimg/guo" alt="#">
+                        </div>
+                        <div class="wenzi">苏泊尔电火火锅锅家用多功能电热煮锅宿舍烧烤炒锅一体锅2-4-6人</div>
+                        <div class="jiage">
+                            <div>￥169</div>
+                            <div><img src="tianmaoimg/gouwuche.png" alt=""></div>
+                        </div>
+
+                    </div>
+
+                    <div class="banner_left_bottom">
+                        <span><a href="javascript:void[0]">[租房党必备，厨房便携...]</a>推荐该商品，点击查看
+                        <img class="jiantou" src="tianmaoimg/jiantou.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <!--右一个-->
+                <div class="banner_right">
+                    <div class="banner_left_top">
+                        <img class="pingguo" src="tianmaoimg/sanzhisongshu" alt="#">
+                        <div class="kuang_shouji">
+                            <img class="shouji" src="tianmaoimg/songzi" alt="#">
+                        </div>
+                        <div class="wenzi">良品铺子零食大礼包年货组合一整箱好吃的混合装吃货网红小吃批发</div>
+                        <div class="jiage">
+                            <div>￥46.9</div>
+                            <div><img src="tianmaoimg/gouwuche.png" alt=""></div>
+                        </div>
+
+                    </div>
+
+                    <div class="banner_left_bottom">
+                        <span><sapn href="javascript:void[0]">[办公桌上让你根本停不...]</sapn>推荐该商品，点击查看
+                        <img class="jiantou" src="tianmaoimg/jiantou.png" alt="">
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+<!--精选商品 3-->
+        <div class="banner">
+            <!--每行-->
+            <div class="banner1">
+                <!--左一个-->
+                <div class="banner_left">
+
+                    <div class="banner_left_top">
+                        <!--<img class="pingguo" src="tianmaoimg/sur" alt="#">-->
+                        <div class="kuang_shouji">
+                            <img class="shouji" src="tianmaoimg/maoyi" alt="#">
+                        </div>
+                        <div class="wenzi">女装 摇粒绒大衣(长袖) 400198 优衣库UNIQLO</div>
+                        <div class="jiage">
+                            <div>￥199</div>
+                            <div><img src="tianmaoimg/gouwuche.png" alt=""></div>
+                        </div>
+
+                    </div>
+
+                    <div class="banner_left_bottom">
+                        <span><a href="javascript:void[0]">[1424人认为]</a> #穿着舒适度可以 #版型样式很潮 #穿
+                        <img class="jiantou" src="tianmaoimg/jiantou.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <!--右一个-->
+                <div class="banner_right">
+                    <div class="banner_left_top">
+                        <img class="pingguo" src="tianmaoimg/feike" alt="#">
+                        <div class="kuang_shouji">
+                            <img class="shouji" src="tianmaoimg/guahudao" alt="#">
+                        </div>
+                        <div class="wenzi">飞科剃须刀电动男士刮胡刀全身水洗智能充电式胡须刀正品FS373</div>
+                        <div class="jiage">
+                            <div>￥99</div>
+                            <div><img src="tianmaoimg/gouwuche.png" alt=""></div>
+                        </div>
+
+                    </div>
+
+                    <div class="banner_left_bottom">
+                        <span><a href="javascript:void[0]">[家用电动剃须刀，解决...]</a>推荐该商品，点击查看
+                        <img class="jiantou" src="tianmaoimg/jiantou.png" alt="">
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+<!--最后收尾了-->
+        <div class="footer">
+            <img src="tianmaoimg/footer1" alt="">
+            <img src="tianmaoimg/footer2" alt="">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+<!--rem根据屏幕宽度来缩放屏幕比例-->
+<script type="text/javascript">
+    //$(window).width();
+    function resize(){
+        $('html').css('font-size',($(window).width())/10+'px');
+        console.log(($(window).width())/10+'px')
+
+    };
+    window.onresize=resize;
+
+    $(function(){resize();});
+
+</script>
+</body>
+</html>
