@@ -1,0 +1,96 @@
+/*about 共同样式 ——服务介绍的导航*/
+.center_top{
+    border-bottom: 2px #dfdfdf solid;
+}
+.center_top .container .row .col-md-4{
+    text-align: center;
+    color: #666;
+    font-size: 22px;
+    padding: 15px 0;
+}
+.center_top .container .row .col-md-8{
+    text-align: center;
+}
+.center_top .container .row .col-md-8 a{
+    color: #000;
+    font-size: 16px;
+    border: 1px #dfdfdf solid;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 4px;
+    transition: all .3s linear;
+}
+.center_top .container .row .col-md-8 a:hover{
+    background: #D64416;
+    transition: all .3s linear;
+    color: #ffffff;
+}
+/*about 服务介绍*/
+.center_center{
+    margin-top: 100px;
+}
+.center_center .container .row .center_center_img{
+    text-align: center;
+}
+.center_center .container .row .center_center_text h1{
+    font-size: 25px;
+    color: #333;
+    line-height: 40px;
+    padding: 15px 0;
+}
+.center_center .container .row .center_center_text p{
+    color: #555;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+.center_center .container .row .center_center_text button{
+    margin-top: 30px;
+}
+
+/*about_2 北斗星定位*/
+.center_center_2{
+    margin-top: 50px;
+}
+.Positioning{
+    background: #333333;
+    border-radius: 5px;
+}
+.Positioning ul{
+    padding: 20px;
+}
+.Positioning ul li a{
+    color: #fff;
+    font-size: 16px;
+    display:block;
+    padding: 10px 15px;
+    transition: .5s;
+}
+.Positioning ul li a:hover{
+    padding: 10px 25px;
+    color: #D64416 !important;
+}
+.active2{
+    color: #D64416 !important;
+}
+.center_center_2 .container .row .col-md-9 h3{
+    margin-top: 0;
+    padding-bottom: 20px;
+    border-bottom: 1.3px #dfdfdf solid;
+    margin-bottom: 20px;
+}
+.center_center_2 .container .row .col-md-9 p{
+    text-indent: 30px;
+    font-size: 16px;
+    color: #777;
+    line-height: 30px;
+}
+.center_center_2 .container .row .col-md-9 img{
+    display: block;
+    margin:20px auto;
+}
+
+/*about_3 汽车增值服务*/
+
