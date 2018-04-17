@@ -1,0 +1,35 @@
+#banner{
+    width: 100%;
+    height: 560px;
+    background: url(../images/logoin.png) center no-repeat;
+    margin-top: -48px;
+}
+#banner .container .row .col-md-4 .login{
+    margin-top: 40px;
+    background: #fff;
+}
+#banner .container .row .col-md-4 .login h2{
+    color: #fff;
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #FE5450;
+    margin: 0;
+}
+#banner .container .row .col-md-4 .login ul{
+    padding: 40px 20px;
+}
+#banner .container .row .col-md-4 .login ul li{
+    padding-bottom: 15px;
+}
+#banner .container .row .col-md-4 .login ul li .btn{
+    width: 100%;
+    text-align: center;
+}
+
+#banner .container .row .col-md-4 .login ul li #as{
+    color: red;
+}
+#banner .container .row .col-md-4 .login ul li #as:hover{
+    text-decoration:underline;
+}

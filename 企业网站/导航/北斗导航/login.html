@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <!--共同样式-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!--个-->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<!--头部-->
+<header>
+    <div class="header">
+
+        <div class="header_center">
+            <div class="header_center_left">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="header_center_right">
+                <ul>
+                    <li class="border_rt">
+                        <i class="icon iconfont"></i>
+                        24小时服务热线<br/>4000-798-369
+                    </li>
+                    <li class="play">
+                        微信关注<br/>下载APP
+                        <div class="play_box">
+                            <div class="pull-left box">
+                                <h4>微信关注</h4>
+                                <img src="images/erweima.png" />
+                            </div>
+                            <div class="pull-left box">
+                                <h4>下载APP</h4>
+                                <img src="images/mg.png" />
+                            </div>
+                            <div class="clear"></div>
+                            <span></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!--banner 登录-->
+<div id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pull-right">
+                <div class="login">
+                    <h2>用户登录</h2>
+                    <ul>
+                      <!-- 用户名 -->
+                        <li>
+                            <input id="name" type="text" class="form-control" placeholder="用户名" />
+                        </li>
+                        <!-- 密码 -->
+                        <li>
+                            <input id="paw" type="password" class="form-control" placeholder="密码" />
+                        </li>
+                        <!-- 忘记密码 -->
+                        <li>
+                            <div class="pull-right pass">
+                                <a href="#">忘记密码？</a>
+                                <span>|</span>
+                                <a id="as" href="registered.html">免费注册</a>
+                            </div>
+                            <div class="clear"></div>
+                        </li>
+                        <li>
+                            <button onclick="fun()" class="btn btn-danger">立即登陆</button>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部版权-->
+<div class="footer">
+    <div class="container box">
+        <div class="row">
+            <div class="col-xs-4">
+                <h4>关于我们</h4>
+                <a>
+                    金盾网联是由省有关部门牵头发起面向全省推行的惠民直通车项目，其携手中国银行、中国石化等多家百强企业全新联合打造，为有车一族提供便捷、安全、实惠、省时的客户绿色通道。
+                </a>
+            </div>
+            <div class="col-xs-4">
+                <h4>友情链接</h4>
+                <a href="">烟台中诺网络科技有限公司</a>
+                <a href="">山东兴鋆网络科技有限公司</a>
+            </div>
+            <div class="col-xs-4  text-center">
+                <div class="pull-left">
+                    <h4>微信关注</h4>
+                    <img src="images/erweima.png" />
+                </div>
+                <div class="pull-right">
+                    <h4>下载APP</h4>
+                    <img src="images/mg.png" />
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span></span>
+                    <span>©2005-2015 山东金盾经贸投资有限公司 版权所有 鲁ICP备12010501号</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+var name = document.getElementById("name");
+var paw = document.getElementById("paw");
+
+    function fun(){
+        if (name.value !== ""  &&  paw.value !== ""){
+            alert("正确")
+        }else{
+            alert("用户名和密码不能为空")
+        }
+    }
+
+</script>
+
+
+</body>
+</html>
